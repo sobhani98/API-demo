@@ -18,4 +18,4 @@ print('delete ==> '+ str(status))
 
 j = r.json()
 print('Username is: '+j['form']['Username'])
-# print('Password is: '+j['form']['password'])
+print('Password is: '+j['form']['password'])
